@@ -1,5 +1,17 @@
 # Git 常用或常见的命令
-[1 igt](#1.git)
+- [1 igt](#1.git)
+- [2 配置用户名和邮箱](#2.配置用户名和邮箱)
+- [3 初始化仓库](#3.初始化仓库)
+- [4 查看文件的状态](#3.查看文件的状态)
+- [5 gti add](#5.git add)
+- [6 提交更行](#6.提交更新)
+- [7 查看提交历史提交记录](#7.查看历史提交记录)
+- [8 回退指定版本](#8.回退指定版本)
+- [9 撤销对文件的修改](#9.撤销对文件的修改)
+- [10 将纳入git管理的文件移除](#10.将纳入git管理的文件移除)
+- [11 忽略某些文件，不需要被git管理](#11.忽略某些文件，不需要被git管理)
+- [12 中文乱码解决](#12.中文乱码解决)
+- [13 VSCode 配置git bash](#13.VSCode 配置git bash)
 #### 1. git
 
 ```js
@@ -152,35 +164,7 @@ git config --global core.quotepath false
 
 ```
 
-#### 13 小结‘
-
-```js
-1. 用户名和邮箱的配置
-git config --global user.name ""
-git config --global user.email ""
-
-2. 初始化仓库
-git init 
-
-3. 查看状态
-git status
-
-4. 将修改的文件放到暂存区 
-git add 文件名 
-git add .   ==> 非常多
-
-5. 提交更新（存档）
-git commit -m "本次提交的描述信息"
-
-6. 查看历史记录
-git log --oneline 
-git reflog  查看所有的 
-
-7. 回退版本
-git reset --hard id
-```
-
-#### 14 VSCode 配置git bash
+#### 13 VSCode 配置git bash
 
 ```js
 // Ctrl + j  
